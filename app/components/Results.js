@@ -4,7 +4,7 @@ import { FaCompass, FaBriefcase, FaUsers, FaUserFriends, FaCode, FaUser } from '
 import Card from './Card'
 import PropTypes from 'prop-types'
 import Loading from './Loading'
-import Tooltip from './Tooltip'
+import Tooltip from './TooltipHighOrder'
 
 function ProfileList ({ profile }) {
   return (

@@ -4,7 +4,7 @@ import { fetchPopularRepos } from '../utils/api'
 import { FaUser, FaStar, FaCodeBranch, FaExclamationTriangle } from 'react-icons/fa'
 import Card from './Card'
 import Loading from './Loading'
-import Tooltip from './Tooltip'
+import Tooltip from './TooltipHighOrder'
 
 function LangaugesNav ({ selected, onUpdateLanguage }) {
   const languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python']
