@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "build": "NODE_ENV='production' webpack",
+    "build-for-windows": "set NODE_ENV=production&&webpack"
   },
   "babel": {
     "presets": [
@@ -15,7 +16,6 @@
     "plugins": [
       "@babel/plugin-proposal-class-properties",
       "syntax-dynamic-import"
-
     ]
   },
   "keywords": [],
@@ -36,6 +36,7 @@
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^7.0.0",
     "css-loader": "^5.0.1",
     "html-webpack-plugin": "^4.5.0",
     "style-loader": "^2.0.0",
