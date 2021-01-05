@@ -3,3 +3,6 @@ A quick test / practice for a mini app that takes Users from the Github API and 
 <br> ( or social success ) in the Github community.
 
 Project created from scratch without create-react-app (yes, we are learning over here)
+
+DEMO (source code needs to be updated)
+https://hardcore-pike-ac9b91.netlify.app/
